@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table with header, footer and body</title>
+    <style>
+      table {
+        width: 300px;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Items</th>
+          <th>Expenditure</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>stattionary</td>
+          <td>2,000</td>
+        </tr>
+        <tr>
+          <td>furniture</td>
+          <td>10,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <td>12,000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
